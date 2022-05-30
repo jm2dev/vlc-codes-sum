@@ -1,6 +1,4 @@
-const sum = (a, b) => {
-  return a + b;
-};
+const sum = require('./sum');
 
 describe('sum 2 numbers', () => {
   it('2 + 3 equals 5', () => {
